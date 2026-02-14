@@ -2,5 +2,5 @@
 #![cfg_attr(not(debug_assertions), windows_subsystem = "windows")]
 
 fn main() {
-    mailhub_temp_lib::run()
+    mailhub_lib::run()
 }
