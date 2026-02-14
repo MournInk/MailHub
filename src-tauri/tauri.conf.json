@@ -1,8 +1,8 @@
 {
   "$schema": "https://schema.tauri.app/config/2",
-  "productName": "mailhub-temp",
+  "productName": "MailHub",
   "version": "0.1.0",
-  "identifier": "com.runner.mailhub-temp",
+  "identifier": "com.mournink.mailhub",
   "build": {
     "beforeDevCommand": "npm run dev",
     "devUrl": "http://localhost:1420",
@@ -12,9 +12,11 @@
   "app": {
     "windows": [
       {
-        "title": "mailhub-temp",
-        "width": 800,
-        "height": 600
+        "title": "MailHub",
+        "width": 1400,
+        "height": 900,
+        "minWidth": 1000,
+        "minHeight": 600
       }
     ],
     "security": {
